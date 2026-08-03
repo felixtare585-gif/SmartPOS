@@ -1,0 +1,133 @@
+/* Main Application Styling */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-background-color: #f8f9fa;
+}
+
+/* Header & Titles */
+.header-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+}
+
+/* Search Field */
+.search-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 7px 12px;
+    -fx-font-size: 13px;
+}
+
+.search-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 1.5px;
+}
+
+/* Product Cards */
+.product-card {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e9ecef;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.04), 8, 0, 0, 2);
+}
+
+.product-card:hover {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52, 152, 219, 0.2), 10, 0, 0, 3);
+}
+
+.product-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+}
+
+.product-price {
+    -fx-font-size: 13px;
+    -fx-text-fill: #27ae60;
+    -fx-font-weight: bold;
+}
+
+.stock-label {
+    -fx-font-size: 11px;
+    -fx-text-fill: #7f8c8d;
+}
+
+.stock-label-out {
+    -fx-font-size: 11px;
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-padding: 6px 12px;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #2980b9;
+}
+
+.btn-success {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-padding: 10px;
+}
+
+.btn-success:hover {
+    -fx-background-color: #27ae60;
+}
+
+.btn-danger {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+    -fx-padding: 8px;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #c0392b;
+}
+
+/* Table View Styling */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e9ecef;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f1f3f5;
+    -fx-font-weight: bold;
+    -fx-text-fill: #495057;
+}
+
+.total-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #27ae60;
+}
