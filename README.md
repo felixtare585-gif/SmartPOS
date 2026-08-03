@@ -7,22 +7,23 @@ This application provides retail management capabilities including transaction p
 
 ## ?? Features
 
-* **User Authentication & Role Permissions:** Secure login for system access.
-* **Point of Sale Interface:** Real-time item lookup, cart management, and receipt calculation.
-* **Product & Inventory Management:** Add, update, view, and organize products.
-* **Transaction Recording:** Save sales history and transaction records directly to MySQL.
-* **MySQL Database Connectivity:** Robust relational data storage using JDBC.
-* **Custom Styling:** Clean desktop interface styled with CSS (\style.css\).
+* **User Authentication & Role Permissions:** Secure login interface for administrative and operator access.
+* **Point of Sale Terminal:** Interactive grid layout for quick item selection, real-time stock alerts, and cart calculations.
+* **Inventory Management:** Full CRUD capabilities to monitor, update, and manage products and stock levels directly.
+* **Sales Analytics & Revenue Reports:** Real-time breakdown of cash vs. M-Pesa sales with date filtering and CSV export.
+* **Database Integration:** MySQL data management via JDBC.
 
 ---
 
 ## ?? Screenshots
 
-*(Add application screenshots in a \screenshots/\ directory to display them here)*
-
-| Login Screen | POS Dashboard |
+| Login Interface | POS Terminal |
 | :---: | :---: |
-| ![Login](screenshots/01login.png) | ![Dashboard](screenshots/02dashboard.png) |
+| ![Login](screenshots/01login.png) | ![POS Dashboard](screenshots/02Dashboard.png) |
+
+| Inventory Management Panel | Sales & Revenue Analytics |
+| :---: | :---: |
+| ![Inventory](screenshots/03Inventory.png) | ![Sales Analytics](screenshots/04Analytics.png) |
 
 ---
 
@@ -42,6 +43,11 @@ This application provides retail management capabilities including transaction p
 SmartPOS
 ¦
 +-- .github
++-- screenshots/
+¦   +-- 01login.png
+¦   +-- 02Dashboard.png
+¦   +-- 03Inventory.png
+¦   +-- 04Analytics.png
 +-- pom.xml
 +-- smartpos.bat
 +-- .gitignore
